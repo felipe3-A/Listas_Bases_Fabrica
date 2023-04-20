@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alerts_Database</string>
+    <string name="mostar_toat_de_larga_duracion">Mostar toat de larga duracion</string>
+    <string name="mostar_toast_de_larga_duracion">Mostar Toast de larga duracion</string>
+    <string name="mostar_un_alerta_con_el_boton_ok">Mostar un alerta con el boton Ok</string>
+    <string name="mostar_alerta_con_boton_aceptar_y_cancelar">Mostar alerta con boton aceptar y cancelar</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombres">nombre1</string>
+    <string name="siguiente">Siguiente</string>
+</resources>

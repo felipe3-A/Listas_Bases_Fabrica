@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/vista1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opciones de prueba!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_gravity="center"
+       android:id="@+id/Boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostar_toat_de_larga_duracion"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/Boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostar_toast_de_larga_duracion"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/Boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostar_un_alerta_con_el_boton_ok"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/Boton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostar_alerta_con_boton_aceptar_y_cancelar"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="NUEVAVISTA"
+        android:text="@string/siguiente"
+        android:textColor="@color/white"/>
+</LinearLayout>
